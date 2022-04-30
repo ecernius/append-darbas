@@ -1,0 +1,27 @@
+button {
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: orange;
+    width: 159px;
+    height: 50px;
+    border: 1px solid orange;
+    text-transform: uppercase;
+}
+
+td {
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid orange;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid orange;
+}

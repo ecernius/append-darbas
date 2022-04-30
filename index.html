@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sctyle.css">
+</head>
+
+<body>
+    <h1>Append table</h1>
+    <form action="#">
+        <input id="vardas" type="text" placeholder="vardas">
+        <input id="pavarde" type="text" placeholder="pavarde">
+        <input id="amzius" type="number" placeholder="amzius">
+        <div>
+            <button onclick="myCreateFunction()">Prideti</button>
+            <button onclick="myDeleteFunction()">Istrinti pirma</button>
+            <button onclick="DeleteFunction()"> Istrinti paskutini</button>
+        </div>
+    </form>
+    <table>
+        <tr>
+            <th>Vardas</th>
+            <th>Pavarde</th>
+            <th>Amzius</th>
+        </tr>
+    </table>
+
+    <table id="myTable">
+
+        <tr>
+            <td>Jonas</td>
+            <td>Jonaitis</td>
+            <td> 19</td>
+        </tr>
+        <tr>
+            <td>Petras</td>
+            <td>Petraitis</td>
+            <td>62</td>
+        </tr>
+        <tr>
+            <td>Antanas</td>
+            <td>Antanaitis</td>
+            <td>82</td>
+        </tr>
+    </table>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
